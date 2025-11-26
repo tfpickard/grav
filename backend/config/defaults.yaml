@@ -1,0 +1,17 @@
+playback:
+  chunk_duration_seconds: 0.5
+  playback_speed: 1.0
+  loop_segments: true
+processing:
+  bandpass_low_hz: 20
+  bandpass_high_hz: 500
+  resample_rate: 4096
+  envelope_threshold: 1.5
+  min_segment_seconds: 0.25
+  max_segment_seconds: 4.0
+datasets:
+  - id: GW150914
+    description: "Iconic first gravitational-wave detection"
+    urls:
+      - "https://www.gw-openscience.org/astro/events/GW150914/H-H1_LOSC_4_V2-1126257414-4096.hdf5"
+      - "https://www.gw-openscience.org/astro/events/GW150914/L-L1_LOSC_4_V2-1126257414-4096.hdf5"
